@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  /* height: 100vh; */
+}
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: coral;
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  margin-top: 10%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* height: 100%; */
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 97%;
+  margin-left: 2%;
+}
+
+.content {
+  margin: 0;
+
+  /* position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.cocok{
+  height: 100vh;
+}
+
+img {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
